@@ -16,7 +16,7 @@ import "../../interfaces/uniswap/Uni.sol";
 import "../../interfaces/yearn/Vault.sol";
 
 
-contract Strategy3Poolv2 is BaseStrategy {
+contract Strategy3Pool2 is BaseStrategy {
     using SafeERC20 for IERC20;
     using Address for address;
     using SafeMath for uint256;
@@ -27,7 +27,7 @@ contract Strategy3Poolv2 is BaseStrategy {
     address public crv;
     address public unirouter;
     address public weth;
-    string public constant override name = "Strategy3Poolv2";
+    string public constant override name = "Strategy3Pool2";
 
     address public proxy;
     address public voter;
